@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    
+}
+
+body{
+    min-height: 100%;
+    font-family: 'Nunito Sans', sans-serif;
+    
+}
+
+html{
+    height: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    background-color: rgb(7, 84, 89);
+    padding: 15px;
+}
+.contenedor-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 5px;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 225, 255), 0 0 5px rgb(3, 226, 255);
+}
+
+#logo{
+    font-size: xx-large;
+    
+}
+
+.lista-menu{
+    display: flex;
+    align-items: center;
+    flex-direction: row;  
+    list-style: none;
+    
+}
+.sub-menu ul{
+    
+    text-decoration: none;
+    list-style: none;
+    position: absolute;
+    text-align: end;
+    left: -55px;
+    display: none;
+}
+.sub-menu{  
+    position: relative;
+}
+li{
+    padding: 4px 8px; 
+    letter-spacing: 1px;
+}   
+
+/* :hover*/
+
+li:hover {
+    display: block;
+    background-color: rgba(1, 1, 1, 0.568);
+    border-radius: 5px;
+    transform: scale(1.1);  
+    transition: 0.1s;
+    
+}
+
+.sub-menu:hover ul{
+    display: block;
+    margin-top: 5px;
+    left: 0%;
+    right: 0%;
+    padding: 0px;
+    padding-top: 6px;
+    background-color: rgb(7, 84, 89);
+    border-radius: 5px;
+    font-size: small;
+    text-align: center;
+   
+}
+
+
