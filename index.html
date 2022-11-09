@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;1,200;1,300&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>
     <title>BarraNavegacion</title>
 </head>
 <body>
@@ -18,7 +19,7 @@
             <h1 class="texto-logo">JESGOD</h1>
         </div>
         <section class="opciones-menu">
-            <ul class="lista-menu">
+            <ul class="lista-menu" id="lista-menu">
                 <li class="sub-menu"><a href="#">PROYECTOS</a>
                     <ul>
                         <li><a href="#" id="calculadora">CALCULADORA</a></li>
@@ -28,7 +29,9 @@
                 </li>
                 <li><a href="#">REDES</a></li>
                 <li><a href="#">CONTACTO</a></li>
+                
             </ul>
+            <button class="btn-hamburgesa" id="btn"><i class="fa-solid fa-bars"></i></button>
         </section>
     </nav>
 </body>
